@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <header class="header">
+        <div class="header__top">
+            <div class="container">
+                <img src="image/Group 108.png" alt="">
+                <p>МИНДАЛЬНАЯ МУКА И НАТУРАЛЬНЫЕ ИНГРЕДИЕНТЫ</p>
+            </div>
+        </div>
+        <div class="header__center">
+            <div class="container">
+                <ul class="center__left">
+                    <li>Гарантия свежести</li>
+                    <li>Доставка и оплата</li>
+                    <li>Оптовые поставки</li>
+                    <li>Контакты</li>
+                </ul>
+                <div class="center__right">
+                    <ul>
+                        <li>Санкт-Петербург</li>
+                        <li>8 812 309-82-88</li>
+                        <li>В корзине (4 товара)</li>
+                    </ul>
+                    <div class="center__image">
+                        <img src="image/Vector (52).png" alt="">
+                        <img src="image/Vector (53).png" alt="">
+                        <img src="image/Group (27).png" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="header__bottom">
+            <div class="container">
+                <ul>
+                    <li>СЛАДКИЕ ДНИ</li>
+                    <li>подарочные наборы</li>
+                    <li>Собрать набор</li>
+                    <li><img onclick="showPopup()"  src="лого.png" alt=""></li>
+                    <li>Создать дизайн</li>
+                    <li>КОМПАНИЯМ</li>
+                    <li>ВЕСЬ КАТАЛОГ</li>
+                </ul>
+            </div>
+
+            <!-- Попап окно -->
+            <div class="popup" id="popup">
+                <input type="text" placeholder="Введите ФИО">
+                <input type="text" placeholder="Адрес">
+                <button>Клик</button>
+                <h2 onclick="closePopup()" class="close">x</h2>
+            </div>
+        </div>
+    </header>
+
+    <script src="js.js"></script>
+</body>
+</html>
